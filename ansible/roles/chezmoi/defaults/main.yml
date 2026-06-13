@@ -1,2 +1,2 @@
 ---
-chezmoi_dotfiles_repo_root: "{{ ansible_facts.user_dir }}/dotfiles"
+chezmoi_repo: "git@github.com:AudunWangen/chezmoi-dotfiles.git"
