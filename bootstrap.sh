@@ -9,4 +9,4 @@ echo "Installing prerequisites"
 sudo dnf install -y ansible
 
 echo "Running the basic Ansible playbook"
-ansible-playbook -i ansible/inventory ansible/init.yml -e "dotfiles_repo_root=${REPO_ROOT}" --ask-become-pass
+ansible-playbook -i ansible/inventory ansible/init.yml -e "chezmoi_dotfiles_repo_root=${REPO_ROOT}" --ask-become-pass
